@@ -29,7 +29,7 @@ This script enables scraping product reviews from **G2**, **Capterra**, and **Tr
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/samuelEvans000/Review_Scraper
    cd review_scraper
    ```
 
@@ -75,11 +75,11 @@ Example:
 ```json
 [
   {
-    "title": "Great tool for collaboration",
-    "description": "The features are seamless and intuitive.",
-    "date": "2023-01-15",
-    "reviewer_name": "John Doe",
-    "rating": "5 out of 5"
+    "title": "Great tool",
+    "description": "excellent for use.",
+    "date": "2024-10-15",
+    "reviewer_name": "allam",
+    "rating": "4 out of 5"
   }
 ]
 ```
@@ -92,10 +92,4 @@ Example:
 
 ---
 
-## Future Enhancements
-- **CAPTCHA Bypass:** Integrate CAPTCHA solving services like 2Captcha.
-- **Additional Sources:** Extend functionality to include more SaaS review platforms.
-- **Error Handling:** Improve exception handling for better reliability.
-
----
 
